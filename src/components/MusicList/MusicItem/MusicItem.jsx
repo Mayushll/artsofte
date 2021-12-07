@@ -9,7 +9,7 @@ export const MusicItem = ({item}) => {
                 <span className={styles.date}>{item.VisualReceived}</span>
                 <span className={styles.phone}>{item.From}</span>
                 <div className={styles.player}>
-                    <audio controls src={mp3}/>
+                    <audio className={styles.audio} controls src={mp3}/>
                     <div className={styles.duration}>{item.VisualDuration}</div>
                 </div>
             </div>
