@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useEffect, useState} from "react"
+import Music from "./store/Music";
+import MusicList from "./components/MusicList/MusicList";
+import styles from "./App.module.css"
+import MusicForm from "./components/MusicForm/MusicForm";
+import {observer} from "mobx-react";
 
-function App() {
+const App = observer(() => {
+    const [music, setMusic] = useState()
+   useEffect(
+        () => {
+            Music.toHumanFormat()
+        }, [Music.filteredData.Root.Data]
+)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.app}>
+        <h1>Голосовая почта</h1>
+        <MusicForm/>
+        <MusicList music={music}/>
     </div>
   );
-}
+})
 
 export default App;

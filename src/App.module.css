@@ -1,0 +1,18 @@
+.app{
+    border-radius: 20px;
+    max-width: 1000px;
+    height: 90vh;
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: rgba(100, 100, 300, 0.2);
+    font-family: Ubuntu, sans-serif;
+    box-shadow: 0 0 100px 30px rgba(0, 50, 250, 0.3);;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: rgba(100, 100, 300, 0.13);
+}
+audio::-webkit-media-controls-time-remaining-display{
+    display: none;
+}
