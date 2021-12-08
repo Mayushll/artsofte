@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/artsofte/static/css/main.3199f168.chunk.css",
-    "main.js": "/artsofte/static/js/main.d1a00608.chunk.js",
-    "main.js.map": "/artsofte/static/js/main.d1a00608.chunk.js.map",
+    "main.css": "/artsofte/static/css/main.42e564c0.chunk.css",
+    "main.js": "/artsofte/static/js/main.34fe1280.chunk.js",
+    "main.js.map": "/artsofte/static/js/main.34fe1280.chunk.js.map",
     "runtime-main.js": "/artsofte/static/js/runtime-main.c08473be.js",
     "runtime-main.js.map": "/artsofte/static/js/runtime-main.c08473be.js.map",
-    "static/js/2.9bd333d6.chunk.js": "/artsofte/static/js/2.9bd333d6.chunk.js",
-    "static/js/2.9bd333d6.chunk.js.map": "/artsofte/static/js/2.9bd333d6.chunk.js.map",
+    "static/js/2.e075927d.chunk.js": "/artsofte/static/js/2.e075927d.chunk.js",
+    "static/js/2.e075927d.chunk.js.map": "/artsofte/static/js/2.e075927d.chunk.js.map",
     "index.html": "/artsofte/index.html",
-    "static/css/main.3199f168.chunk.css.map": "/artsofte/static/css/main.3199f168.chunk.css.map",
-    "static/js/2.9bd333d6.chunk.js.LICENSE.txt": "/artsofte/static/js/2.9bd333d6.chunk.js.LICENSE.txt",
+    "static/css/main.42e564c0.chunk.css.map": "/artsofte/static/css/main.42e564c0.chunk.css.map",
+    "static/js/2.e075927d.chunk.js.LICENSE.txt": "/artsofte/static/js/2.e075927d.chunk.js.LICENSE.txt",
     "static/media/Sword_Art_Online_-_Luminous_Sword_(musmore.com).a96481d0.mp3": "/artsofte/static/media/Sword_Art_Online_-_Luminous_Sword_(musmore.com).a96481d0.mp3"
   },
   "entrypoints": [
     "static/js/runtime-main.c08473be.js",
-    "static/js/2.9bd333d6.chunk.js",
-    "static/css/main.3199f168.chunk.css",
-    "static/js/main.d1a00608.chunk.js"
+    "static/js/2.e075927d.chunk.js",
+    "static/css/main.42e564c0.chunk.css",
+    "static/js/main.34fe1280.chunk.js"
   ]
 }
