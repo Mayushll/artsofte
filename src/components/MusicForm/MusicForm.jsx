@@ -32,7 +32,7 @@ export const MusicForm = observer(() => {
                         dateFilter = {dateFilter}
                         phoneFilter = {phoneFilter}
                 />
-                <button onClick={ ()=> {
+                <button className={styles.reset} onClick={ ()=> {
                     setPhoneFilter("")
                     setDateFilter("")
                     setDurationFilter("")

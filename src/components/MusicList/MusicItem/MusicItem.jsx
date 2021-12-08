@@ -6,11 +6,11 @@ export const MusicItem = ({item}) => {
     return (
         <div>
             <div className={styles.wrapper}>
-                <span className={styles.date}>{item.VisualReceived}</span>
+                <span className={styles.date}>{item.visualReceived}</span>
                 <span className={styles.phone}>{item.From}</span>
                 <div className={styles.player}>
                     <audio className={styles.audio} controls src={mp3}/>
-                    <div className={styles.duration}>{item.VisualDuration}</div>
+                    <div className={styles.duration}>{item.visualDuration}</div>
                 </div>
             </div>
             <hr />

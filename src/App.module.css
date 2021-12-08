@@ -1,13 +1,16 @@
 .app{
+    position: relative;
     border-radius: 20px;
     max-width: 1000px;
-    height: 90vh;
+    min-height: 90vh;
     padding: 15px;
     margin: 0 auto;
     margin-top: 30px;
     background-color: rgba(100, 100, 300, 0.2);
     font-family: Ubuntu, sans-serif;
     box-shadow: 0 0 100px 30px rgba(0, 50, 250, 0.3);;
+    display: flex;
+    flex-direction: column;
 }
 
 audio::-webkit-media-controls-panel {
@@ -15,4 +18,58 @@ audio::-webkit-media-controls-panel {
 }
 audio::-webkit-media-controls-time-remaining-display{
     display: none;
+}
+button:hover{
+    filter: brightness(0.9);
+}
+button{
+    border: 1px solid;
+    border-radius:4px;
+    width: 180px;
+    height: 40px;
+    font-weight: 700;
+    cursor: pointer;
+    background: rgba(200, 200, 300, 0.3);
+}
+select{
+    font-weight: 700;
+    position: relative;
+    top: 10px;
+    align-items: center;
+    border: 1px solid rgba(50, 50, 50, 0.60);
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    line-height: 28px;
+    max-width: 100%;
+    padding: 0.3vw;
+    text-decoration: none;
+    background: rgba(200, 200, 300, 0.2);
+}
+select:hover{
+    background: rgba(200, 200, 300, 0.3);
+    filter: brightness(0.8);
+}
+option {
+    background: rgba(200, 200, 300, 0.5);
+}
+input{
+    width: min-content;
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition: box-shadow 100ms;
+    min-width: 200px;
+    font-weight: 700;
+}
+
+input:focus{
+    border-color: mediumpurple;
+    box-shadow: 0 0 8px 0 mediumpurple;;
 }

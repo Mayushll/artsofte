@@ -41,7 +41,7 @@ export const MusicList = observer(({music}) => {
                     Music.filteredData.Root.Data.slice(currentItems * currentPage - currentItems, currentItems * currentPage).map((item, index) =>
                         <MusicItem key={index} item={item}/>
                     )
-                    : <div style={{marginLeft: "15px"}}>Голосовых сообщений не нашлось :(</div>
+                    : <div style={{marginLeft: "1vw"}}>Голосовых сообщений не нашлось :(</div>
             }
             <MusicPagination
                 pages={pages}
